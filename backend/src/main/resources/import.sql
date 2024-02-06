@@ -20,3 +20,5 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('BootCamp HTML','htt
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0',TIMESTAMP WITH TIME ZONE '2024-11-20T03:00:00Z',TIMESTAMP WITH TIME ZONE '2025-12-20T03:00:00Z', 1);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0',TIMESTAMP WITH TIME ZONE '2025-12-20T03:00:00Z',TIMESTAMP WITH TIME ZONE '2026-01-20T03:00:00Z', 1);
 
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Notification 01', TIMESTAMP WITH TIME ZONE '2023-10-20T03:45:00Z',true, '/offers/1', 1 );
+
