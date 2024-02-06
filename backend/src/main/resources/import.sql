@@ -26,3 +26,8 @@ INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id)
 INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id) VALUES ('Forum','Tire suas duvidas', 2 , 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 2, 1);
 INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id) VALUES ('Lives','Lives exclusivas', 3 , 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 0, 1);
 
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Inicio do Capitulo', 1, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Segundo Capitulo', 2, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Terceiro Capitulo', 3, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 2);
+
+
