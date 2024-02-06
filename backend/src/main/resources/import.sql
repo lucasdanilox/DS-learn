@@ -14,3 +14,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('BootCamp HTML','https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 'https://blog.4linux.com.br/wp-content/uploads/2018/03/Curso-de-HTML5-e-CSS3-1900x1266_c.jpg');
