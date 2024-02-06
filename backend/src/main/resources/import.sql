@@ -16,3 +16,7 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('BootCamp HTML','https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 'https://blog.4linux.com.br/wp-content/uploads/2018/03/Curso-de-HTML5-e-CSS3-1900x1266_c.jpg');
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0',TIMESTAMP WITH TIME ZONE '2024-11-20T03:00:00Z',TIMESTAMP WITH TIME ZONE '2025-12-20T03:00:00Z', 1);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0',TIMESTAMP WITH TIME ZONE '2025-12-20T03:00:00Z',TIMESTAMP WITH TIME ZONE '2026-01-20T03:00:00Z', 1);
+
