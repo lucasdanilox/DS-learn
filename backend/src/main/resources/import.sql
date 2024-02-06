@@ -22,3 +22,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Notification 01', TIMESTAMP WITH TIME ZONE '2023-10-20T03:45:00Z',true, '/offers/1', 1 );
 
+INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id) VALUES ('Trilha HTML','Trilha principal', 1 , 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 1);
+INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id) VALUES ('Forum','Tire suas duvidas', 2 , 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 2, 1);
+INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id) VALUES ('Lives','Lives exclusivas', 3 , 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 0, 1);
+
