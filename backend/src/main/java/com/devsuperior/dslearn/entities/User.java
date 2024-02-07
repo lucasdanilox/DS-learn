@@ -74,13 +74,10 @@ public class User {
         return roles;
     }
 
-    public void setRoles(Set<Role> roles) {
-        this.roles = roles;
-    }
-
     public List<Notification> getNotifications() {
         return notifications;
     }
+
 
     @Override
     public boolean equals(Object o) {
