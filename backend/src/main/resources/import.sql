@@ -28,7 +28,23 @@ INSERT INTO tb_resource (title, description , position, img_Uri, type, offer_id)
 
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Inicio do Capitulo', 1, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, null);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Segundo Capitulo', 2, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 1);
-INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Terceiro Capitulo', 3, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 2);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Terceiro Capitulo', 3, 'https://cdn-media-1.freecodecamp.org/ghost/2019/04/css-html-1.png', 1, 2);
 
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2024-11-20T13:00:00Z', null, true, false);
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2024-11-20T13:00:00Z', null, true, false);
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 1 Cap: 1', 1, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (1, 'Material de Apoio: www.apoio.com.br', 'https://www.youtube.com/watch?v=D4frmIHAxEY');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 2 Cap: 1', 2, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (2, 'Material de Apoio PT.2 : www.apoio.com.br', 'https://www.youtube.com/watch?v=D4frmIHAxEY');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 3 Cap: 1', 3, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (3, 'Material de Apoio PT.3 : www.apoio.com.br', 'https://www.youtube.com/watch?v=D4frmIHAxEY');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Desafio do Cap: 1', 4, 1);
+INSERT INTO tb_task (id, description, question_Count, approval_Count, weight, due_Date) VALUES (4, 'Desafio', 5, 4, 1.0, TIMESTAMP WITH TIME ZONE '2024-12-25T03:00:00Z');
+
+INSERT INTO tb_lesson_done (lesson_id, user_id, offer_id) VALUES (1, 1, 1);
+INSERT INTO tb_lesson_done (lesson_id, user_id, offer_id) VALUES (2, 1, 1);
+
