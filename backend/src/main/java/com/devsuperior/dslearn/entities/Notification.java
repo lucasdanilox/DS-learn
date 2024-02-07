@@ -56,7 +56,7 @@ public class Notification {
         this.moment = moment;
     }
 
-    public Boolean getRead() {
+    public Boolean isRead() {
         return read;
     }
 
